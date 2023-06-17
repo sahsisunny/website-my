@@ -62,7 +62,7 @@ module.exports = function (environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
-    ENV.BASE_API_URL = 'https://api.realdevsquad.com';
+    ENV.BASE_API_URL = 'https://rdsapi.up.railway.app';
   }
 
   return ENV;
